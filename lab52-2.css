@@ -1,0 +1,31 @@
+.column{
+    width:25%;
+    float:left;
+}
+.san-pham{
+    border-radius:10px;
+    /* box-shadow: nhòe, dày 5 pixel màu gray */
+    padding:10 px;
+    margin:5 px;
+    text-align: center;
+    }
+
+.san-pham, .ten{
+    font-size:larger;
+    /* font-variant: hoa nhỏ */
+    color: blue;
+}
+
+.san-pham, img{
+    max-width:95%;
+}
+.san-pham, .gia{
+    color: red;
+    font-weight:bold;
+    font-size:larger;
+}
+
+.san-pham, .gia del{
+    color:gray;
+}
+

@@ -1,0 +1,42 @@
+.row-1 {
+    display: flex;
+}
+
+.row-2 {
+    display: flex;
+}
+
+.san-pham {
+    position: relative;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* Cách 1 để căn giữa chữ và giá */
+    align-items: center;
+    text-align: center;
+}
+
+.ten {
+    position: absolute;
+    /* cách 2 để căn giữa chữ */
+    /*left: 50%;
+    transform: translateX(-50%); */
+    padding: 5px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.gia {
+    position: absolute;
+    /* cách 2 để căn giữa giá  */
+    /* left: 50%;
+    transform: translateX(-50%); */
+    bottom: 5px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+img {
+    width: 150px;
+}
